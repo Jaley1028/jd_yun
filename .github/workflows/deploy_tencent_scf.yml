@@ -180,7 +180,7 @@ jobs:
           npm install
           npm install tencentcloud-sdk-nodejs
 
-      - name: "部署到腾讯云函数"
+      - name: "部署到腾讯云函数" 
         run: node tencentscf.js
         env:
           STAGE: dev
